@@ -8,66 +8,43 @@
 </head>
 <body>
 
-  <div id="player1" class="testbox1">
-  </div>
-  <div id="player1" class="testbox1">
-  </div>
-  <br>
-  <div id="player2" class="testbox2">
-  </div>
-  <div id="player2" class="testbox2">
-  </div>
-  <div class="row">
-  <div class="one-half column">
-    <a href="about.html" onMouseOver="SwapOutDave()" onMouseOut="SwapBackDave()">
-    <img name="imageflip1" src="img/swaintek.jpg" width=175 height=200 border=5px/></a>
-    <h5>Dave Swaintek</h5>
-    </p>
+  <div class="page-header">
+    <h1>Blackjack <small></small></h1>
   </div>
 
-  <div class="one-half column">
-    <a href="about.html" onMouseOver="SwapOutNoah()" onMouseOut="SwapBackNoah()">
-    <img name="imageflip2" src="img/gribbins.jpg" width=175 height=200 border=5px/></a>
-    <h5>Noah Gribbin</h5>
+  <div id="container1">
+    <div id="grid" class="row">
+      <div id="dCard1" class="col-xs-6 col-md-4"><img class=playerbox src="img/cardback.png" alt=""></div>
+      <div id="dCard2" class="col-xs-6 col-md-4"><img class=playerbox src="img/cardback.png" alt=""></div>
+    </div>
+  </div>
+  <br>
+  <div id="container2">
+    <div id="grid" class="row">
+      <div id="pCard1" class="col-xs-6 col-md-4"><img class=playerbox src="img/cardback.png" alt=""></div>
+      <div id="2Card2" class="col-xs-6 col-md-4"><img class=playerbox src="img/cardback.png" alt=""></div>
     </div>
   </div>
 
-<!-- <div class="row">
-  <div class="one-half column">
-    <a href="about.html" onMouseOver="SwapOutCody()" onMouseOut="SwapBackCody()">
-    <img name="imageflip3" src="img/nemmar.jpg" width=175 height=200 border=5px/></a>
-    <h5>Cody Nemmar</h5>
-  </div>
-
-  <div class="one-half column">
-    <a href="about.html" onMouseOver="SwapOutTiff()" onMouseOut="SwapBackTiff()">
-    <img name="imageflip4" src="img/koch.jpg" width=175 height=200 border=5px/></a>
-    <h5>Tiffine Koch</h5>
-    </p>
-  </div>
-</div>
-
   <div id="container">
-    <div>
+    <div id="buttonrow" class="row">
+
       <button type="button" class="btn btn-success" id="start">
       Start Game
       </button>
-    </div>
-    <div>
+
       <button type="button" class="btn btn-warning" id="hit">
         Hit
       </button>
-    </div>
-    <div>
+
       <button type="button" class="btn btn-danger" id="stand">
         Stand
       </button>
+
     </div>
   </div>
- -->
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="main.js"></script>
 </body>
